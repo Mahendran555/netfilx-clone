@@ -1,0 +1,123 @@
+#background-color{
+    background-color: rgb(16, 17, 17);
+    height: 450vh;
+    
+}
+#netfilx{
+    color: orange;
+}
+
+.navbar-nav{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+#carsole-imgeas{
+    height: 70vh;
+    width: 100vw;
+    border-radius: 10px;
+}
+
+.button{
+    background-color: transparent;
+    color: orange;
+    border-color: orange;
+    border-radius: 20px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    border-width: 1px;
+    height: 50px;
+    width: 140px;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 50px;
+    
+}
+.button:hover{
+    transition: 0.3s ease;
+    transform: scale(0.9);
+}
+.button2{
+    background-color: orangered;
+    color: black;
+   
+    border-radius: 20px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    border-width: 1px;
+    height: 50px;
+    width: 140px;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+.button2:hover{
+    transition: 0.3s ease;
+    transform: scale(0.9);
+}
+h1{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-top: 100px;
+    margin-left: 100px;
+    padding-right: 600px;
+   
+   
+}
+.movie-list{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.movie-imgeas{
+    height: 40vh;
+    width: 15vw;
+    margin-top: 20px;
+    margin-left: 40px;
+    border-radius: 10px;
+    
+}
+.movie-imgeas:hover{
+    transition: 0.3s ease;
+    transform: scale(0.9);
+}
+.heading{
+    font-size: 20px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 60px;
+    padding-top: 20px;
+}
+p{
+    font-size: 15px;
+    color: rgb(165, 164, 164);
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 60px;
+    
+}
+.follows-us-icons {
+    width: 60px;
+    height: 60px;
+   margin-top: 30px;
+    margin: 15px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-left: 22px;
+    padding-right: 40px;
+    border-radius: 40px;
+}
+.tiwtter {
+    font-size: 35px;
+    color: #055ff0;
+
+}
+
+.instargram {
+    font-size: 35px;
+    color: #e82c35;
+}
+body{
+    background-image: url(./pexels-johannes-plenio-1118873.jpg);
+    height: 100vh;    
+    background-size: cover;
+}

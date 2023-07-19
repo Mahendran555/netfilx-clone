@@ -1,0 +1,242 @@
+                                                                <!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/9117d345b6.js" crossorigin="anonymous"></script>
+    
+    
+    
+    
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netfilx Clone</title>
+    <link rel="stylesheet" href="index.css">
+    
+</head>
+<body>
+    <div  id="background-color">
+        <nav class="navbar navbar-expand-lg navbar-light bg-cover">
+            <a class="navbar-brand text-white" href="https://www.netflix.com/in/" id="netfilx">Netfilx</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav m-auto">
+                <li class="nav-item active pl-2">
+                  <a class="nav-link text-white" href="#" >Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item pl-3">
+                  <a class="nav-link text-white" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown pl-3">
+                  <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <div class="dropdown-menu " aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item " href="#">Action</a>
+                    <a class="dropdown-item " href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item " href="#">Something else here</a>
+                  </div>
+                </li>
+                <li class="nav-item pl-3">
+                  <a class="nav-link text-white" href="#">Movies</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="container">
+                    <form action="" class="col-md-6 m-auto py-5">
+                        <div class="input-group mb-3">
+                            <input type="text" id="city-name" class="form-control" placeholder="Enter Your Email" aria-label="Recipient's username" aria-describedby="button-addon2">
+                            <button onclick="searchTemperature()" class="btn btn-primary" type="button" id="button-addon2">Sign in</button>
+                          </div>
+                    </form>
+                  
+                
+                
+                </div>
+                <div class="carousel-item active" id="carsole-imgeas">
+                <img class="d-block w-100" src="./money-heist-cast-lineup-mco6lykk86w8ytas.jpg" alt="First slide">
+              </div>
+              <div class="carousel-item"  id="carsole-imgeas">
+                <img class="d-block w-100" src="./wp10388053.webp" alt="Second slide">
+              </div>
+              <div class="carousel-item"  id="carsole-imgeas">
+                <img class="d-block w-100" src="./EGjUcK.jpg" alt="Third slide">
+              </div>
+              <div class="carousel-item"  id="carsole-imgeas">
+                <img class="d-block w-100" src="./O3IDWP.jpg" alt="Third slide">
+              </div>
+              <div class="carousel-item"  id="carsole-imgeas">
+                <img class="d-block w-100" src="./d2575adcd2325b14c653055717c85ee2.jpg" alt="Third slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+    <div class="d-flex flex-row justify-content-center">
+        <button class="button">ACTION</button>
+        <button class="button">ADVENTURE</button>
+        <button class="button">DRAMA</button>
+        <button class="button">COMEDY</button>
+        <button class="button2">MORE</button>
+        
+    </div>
+
+<h1>Movies</h1>
+    
+<div class="d-flex flex-row movie-list">
+
+<div>
+     <img src="./529912.jpg" class="movie-imgeas"/>
+     <h2 class="heading">The Inaudible Hulk </h2>
+     <p>20 June 2008</p>
+</div>
+
+<div>
+    <img src="./1.jpg" class="movie-imgeas"/>
+    <h2 class="heading">Exists </h2>
+    <p>2014</p>
+</div>
+
+<div>
+    <img src="./2.jpg" class="movie-imgeas"/>
+    <h2 class="heading">I, Frankenstein</h2>
+    <p>2014</p>
+</div>
+
+<div>
+    <img src="./3.jpg" class="movie-imgeas"/>
+    <h2 class="heading">Avatar </h2>
+    <p>2009</p>
+</div>
+
+<div>
+    <img src="./4.jpg" class="movie-imgeas"/>
+    <h2 class="heading">Avengers: Age of Ultron </h2>
+    <p>2015</p>
+</div>
+
+</div>       
+   
+
+<div class="d-flex flex-row movie-list">
+
+    <div>
+         <img src="./5.jpg" class="movie-imgeas"/>
+         <h2 class="heading">The Pirates </h2>
+         <p>2014</p>
+    </div>
+    
+    <div>
+        <img src="./6.jpg" class="movie-imgeas"/>
+        <h2 class="heading">The Wolverine</h2>
+        <p>2013</p>
+    </div>
+    
+    <div>
+        <img src="./7.jpg" class="movie-imgeas"/>
+        <h2 class="heading">The Girl Who Got Away</h2>
+        <p>2021</p>
+    </div>
+    
+    <div>
+        <img src="./8.jpg" class="movie-imgeas"/>
+        <h2 class="heading">The Dark Knight</h2>
+        <p>2008</p>
+    </div>
+    
+    <div>
+        <img src="./9.jpg" class="movie-imgeas"/>
+        <h2 class="heading">Seventh Son</h2>
+        <p>2014</p>
+    </div>
+    
+    </div>       
+
+    <div class="d-flex flex-row movie-list">
+
+        <div>
+             <img src="./10.jpg" class="movie-imgeas"/>
+             <h2 class="heading">Evl Dead Rise</h2>
+             <p>2023</p>
+        </div>
+        
+        <div>
+            <img src="./11.jpg" class="movie-imgeas"/>
+            <h2 class="heading">John Wick</h2>
+            <p>(2017 - 2019)</p>
+        </div>
+        
+        <div>
+            <img src="./12.jpg" class="movie-imgeas"/>
+            <h2 class="heading">Black Widow</h2>
+            <p>2021</p>
+        </div>
+        
+        <div>
+            <img src="./13.jpg" class="movie-imgeas"/>
+            <h2 class="heading">London Has Fallen</h2>
+            <p>2016</p>
+        </div>
+        
+        <div>
+            <img src="./14.jpg" class="movie-imgeas"/>
+            <h2 class="heading">Morbius</h2>
+            <p>2022</p>
+        </div>
+        
+        </div>       
+                  
+   
+        <div class="d-flex flex-row justify-content-center mt-5">
+            <div class="follows-us-icons">
+                <i class="fa-brands fa-twitter tiwtter"></i>
+            </div>
+            <div class="follows-us-icons">
+                <i class="fa-brands fa-facebook tiwtter"></i>
+            </div>
+            <div class="follows-us-icons">
+                <i class="fa-brands fa-instagram instargram"></i>
+            </div>
+        </div>   
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+</body>
+</html>
